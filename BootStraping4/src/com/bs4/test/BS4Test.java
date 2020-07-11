@@ -19,7 +19,6 @@ public class BS4Test
 		BootstrapServiceRegistryBuilder bootstrapServiceRegistryBuilder=new BootstrapServiceRegistryBuilder();
 		BootstrapServiceRegistry bootstrapServiceRegistry=bootstrapServiceRegistryBuilder.build();
 		
-		
 		StandardServiceRegistryBuilder standardServiceRegistryBuilder=new StandardServiceRegistryBuilder();
 		StandardServiceRegistry standardServiceRegistry=standardServiceRegistryBuilder.applySettings(configuration.getProperties()).build();
 		
